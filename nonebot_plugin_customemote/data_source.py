@@ -30,7 +30,7 @@ class CustomEmote:
         self.group_image_save_path = Path(self.save_emote_path, "image")
         self.temp_image_path = Path(self.save_emote_path, "temp")
         self.emote_save_mode = save_emote_mode
-        self.active_keyword = ["jpg", "png", "gif", "JPG", "PNG", "GIF"]
+        self.active_keyword = ["jpg", "png", "gif", "heic", "JPG", "PNG", "GIF", "HEIC"]
         self.active_keyword_tuple = tuple(self.active_keyword)
         self.image_data_queue = {}
         self.logger_map()
